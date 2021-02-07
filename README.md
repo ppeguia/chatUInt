@@ -4,6 +4,8 @@ Tiene 50% de avance
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
+El servidor al cual se conecta es chat_serv: https://github.com/ppeguia/chat_serv.git
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

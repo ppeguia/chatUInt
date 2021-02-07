@@ -2,8 +2,6 @@
 Desarrollo Front, la parte grafica y consume el projecto chat_serv.
 Tiene 50% de avance
 
-# ChatUInt
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
 ## Development server

@@ -1,0 +1,50 @@
+.card {
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+  }
+
+  section {
+    display: table;
+  }
+
+  .button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+  .formLogin {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    background-color: white ;
+    border: 1px double blue;
+    padding: 10px;
+    margin: 10px;
+ }
+
+ .messageDiv{
+    height:200px;
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    overflow:scroll;
+    overflow-x:hidden;
+    overflow-y:scroll;
+ }

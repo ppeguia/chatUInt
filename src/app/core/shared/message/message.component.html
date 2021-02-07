@@ -1,0 +1,36 @@
+<div class="container">
+    <mat-card class="card">
+        <form class="formMessage" (ngSubmit)="submitMessage()">
+            <mat-card-header>
+                <mat-card-title style="text-align: right;">Mensaje</mat-card-title>
+                <mat-card-subtitle>Usuario: {{userChat}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="messageDiv">
+                    <p>hola</p>
+                    <p>hola2</p>
+                    <p>hola3</p>
+                </div>
+                <mat-form-field class="full-width">
+                    <mat-label>Mensaje:</mat-label>
+                    <input type="text" matInput [formControl]="messageFormControl" [errorStateMatcher]="matcher"
+                        placeholder="texto del mensaje">
+                    <mat-hint>Mensaje</mat-hint>
+                    <mat-error *ngIf="messageFormControl.hasError('mensaje') && !messageFormControl.hasError('required')">
+                        Por favor ingresar un mensaje valido
+                    </mat-error>
+                    <mat-error *ngIf="messageFormControl.hasError('required')">
+                        Mensaje es <strong>requerido</strong>
+                    </mat-error>
+                </mat-form-field>
+            </mat-card-content>
+            <section>
+                <mat-card-actions>
+                    <div class="button-row">
+                        <button mat-raised-button color="primary">Enviar</button>
+                    </div>
+                </mat-card-actions>
+            </section>
+        </form>
+    </mat-card>
+</div>
